@@ -15,3 +15,6 @@ git clone https://github.com/Jim-Rae/jx_xdt_app.git  
 直接运行 tiaozaoH5/pages/index/index.html
 ```
 
+## 演示效果
+
+[查看效果请戳这里](http://www.micowxy.xin/h5/tiaozaoH5/pages/index/index.html)
