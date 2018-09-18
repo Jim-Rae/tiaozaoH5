@@ -1,0 +1,41 @@
+.alert{
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.alertBg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .6;
+    top: 0;
+    left: 0;
+}
+.alertBox{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-60%);
+            transform: translateY(-60%);
+    width: 80%;
+    margin-left: 10%;
+    z-index: 100;
+    background: #ffffff;
+    border-radius: 7px;
+}
+.alertBox>p{
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1rem 0.5rem;
+    border-bottom: solid 1px #BFC2C2FF;
+}
+.alertBox>div{
+    /*bottom: 1rem;*/
+    color: #f8b551;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0.5rem;
+}

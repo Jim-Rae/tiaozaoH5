@@ -1,0 +1,97 @@
+.title{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b551) , to(#ff9759));
+    background: linear-gradient(to right, #f8b551 , #ff9759);
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+.back{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0.7rem;
+}
+section{
+    margin: 58px 0 60px 0;
+}
+section .item{
+    position: relative;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-bottom: solid 1px #BFC2C2FF;
+}
+section #nickname{
+    float: right;
+    width: 80%;
+    font-size: 0.9rem;
+    text-align: right;
+    color: #8A8D8DFF;
+    padding: 2px;
+}
+section #protrait{
+    margin: auto;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 6px;
+    background: no-repeat center;
+    background-size: cover;
+}
+section .proTips{
+    text-align: center;
+    font-size: 0.8rem;
+}
+section #sexSlt,#schoolSlt{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+section #birthday{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background-color: white;
+    font-size: 0.9rem;
+    text-align: right;
+    color: #8A8D8DFF;
+}
+section textarea{
+    border: none;
+    border-bottom: solid 1px #BFC2C2FF;
+    padding: 10px 20px;
+    width: 100%;
+    height: 5rem;
+}
+section #sex,#date,#school{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    color: #8A8D8DFF;
+}
+section button{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: 2rem;
+    margin: 1rem 0;
+    background-color: #fc5e2e;
+    font-size: 0.9rem;
+    color: white;
+    letter-spacing: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+            box-shadow: 0 0 5px #BFC2C2FF;
+}
+textarea{
+    font-size: 0.8rem;
+    color: #8A8D8DFF;
+}

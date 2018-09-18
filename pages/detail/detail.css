@@ -1,0 +1,287 @@
+.title{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b551) , to(#ff9759));
+    background: linear-gradient(to right, #f8b551 , #ff9759);
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+.back{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0.7rem;
+}
+.car{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 1rem;
+}
+button{
+    border: none;
+}
+button:active{
+    opacity: 0.8;
+}
+.isSell{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 8px 20px;
+    border-top: solid 1px #BFC2C299;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+    box-shadow: 0 0 5px #BFC2C2FF;
+    color: red;
+    text-align: right;
+}
+footer{
+    position: fixed;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+    border-top: solid 1px #BFC2C299;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+            box-shadow: 0 0 5px #BFC2C2FF;
+}
+footer>.leaveMsg{
+    background-color: #f8b551;
+    width: 15%;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    color: white;
+}
+footer>.collect{
+    background-color: #ff9759;
+    width: 18%;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    color: white;
+}
+footer>.buy{
+    background-color: #fc5e2e;
+    width: 30%;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    color: white;
+}
+footer>.addCar{
+    background-color: #FC7130;
+    width: 30%;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    color: white;
+}
+section{
+    margin: 58px 0;
+}
+section>.fullPicDiv{
+
+}
+section>.fullPicDiv>.fullPic{
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+       -moz-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 19rem;
+    height: 19rem;
+    margin: 8px auto;
+    border-radius: 6px;
+    background: no-repeat center;
+    background-size: cover;
+}
+section>.halfPicDiv{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 10px;
+}
+section>.halfPicDiv>.halfPic{
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+       -moz-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 9.2rem;
+    height: 9.2rem;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    background: no-repeat center;
+    background-size: cover;
+}
+section>.leaveMsgDiv{
+    border-top: solid 10px #BFC2C299;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+section>.leaveMsgDiv>.leaveMsg{
+    position: relative;
+    margin: 10px 0;
+    min-height: 30px;
+}
+section>.leaveMsgDiv .portrait{
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section>.leaveMsgDiv .message{
+    margin-left: 35px;
+    font-size: 0.8rem;
+}
+section>.leaveMsgDiv .author{
+    color: #6D82E2FF;
+}
+#outerdiv{
+    display: none;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.9);
+    z-index:100;
+    width:100%;
+    height:100%;
+}
+#innerdiv{
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+#bigimg{
+    width: 100%;
+}
+.info{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border-top: solid 1px #BFC2C299;
+    border-bottom: solid 1px #BFC2C299;
+}
+.info>.portrait{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info>.detail{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 10px;
+}
+.info>.detail:active{
+    background-color: #BFC2C2FF;
+}
+.info>.nickname{
+    margin-left: 50px;
+    font-size: 0.85rem;
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info>.time{
+    margin-left: 50px;
+    font-size: 0.7rem;
+    color: #ABADB0FF;
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.menuBg{
+    display: none;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.3);
+    z-index:90;
+    width:100%;
+    height:100%;
+}
+.menu{
+    display: none;
+    position: absolute;
+    z-index: 91;
+    background-color: white;
+    right: 10px;
+    top: 77%;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: solid 1px #BFC2C2FF;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+            box-shadow: 0 0 5px #BFC2C2FF;
+}
+.menu>li{
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+}
+.menu>li:active{
+    background-color: #BFC2C2FF;
+}
+.menu>li:first-child{
+    border-bottom: solid 1px #BFC2C2FF;
+}
+.introDiv{
+    padding: 0 10px;
+}
+.introDiv>.goodTitle{
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+}
+.introDiv>.goodIntro{
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+}
+.introDiv>.goodPrice{
+    text-align: right;
+    color: red;
+    padding: 0 10px;
+}

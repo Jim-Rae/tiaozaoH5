@@ -1,0 +1,142 @@
+.bg-addPic {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -250px -10px;
+}
+
+
+.bg-back {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -250px -150px;
+}
+
+
+.bg-bigBuy {
+    width: 100px; height: 100px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+
+.bg-bigCamera {
+    width: 100px; height: 94px;
+    background: url('css_sprites.png') -130px -130px;
+}
+
+
+.bg-bigCar {
+    width: 100px; height: 100px;
+    background: url('css_sprites.png') -130px -10px;
+}
+
+
+.bg-bigCollect {
+    width: 100px; height: 100px;
+    background: url('css_sprites.png') -10px -130px;
+}
+
+
+.bg-buy {
+    width: 30px; height: 23px;
+    background: url('css_sprites.png') -160px -300px;
+}
+
+
+.bg-camera_active {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -250px -200px;
+}
+
+
+.bg-camera {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -10px -250px;
+}
+
+
+.bg-car {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -60px -250px;
+}
+
+
+.bg-category_active {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -110px -250px;
+}
+
+
+.bg-category {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -160px -250px;
+}
+
+
+.bg-close {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -210px -250px;
+}
+
+
+.bg-collect {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -260px -250px;
+}
+
+
+.bg-detail {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -330px -10px;
+}
+
+
+.bg-home_active {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -330px -60px;
+}
+
+
+.bg-home {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -330px -110px;
+}
+
+
+.bg-message_active {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -330px -160px;
+}
+
+
+.bg-message {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -330px -210px;
+}
+
+
+.bg-myCar {
+    width: 40px; height: 40px;
+    background: url('css_sprites.png') -250px -90px;
+}
+
+
+.bg-person_active {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -10px -300px;
+}
+
+
+.bg-person {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -60px -300px;
+}
+
+
+.bg-set {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -110px -300px;
+}
+
+
+.bg-tick {
+    width: 20px; height: 20px;
+    background: url('css_sprites.png') -330px -260px;
+}

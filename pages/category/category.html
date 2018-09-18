@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+    <link rel="stylesheet" type="text/css" href="../../components/goodsCell/goodsCell.css">
+    <link rel="stylesheet" type="text/css" href="../../components/footerNav/footerNav.css">
+    <link rel="stylesheet" type="text/css" href="./category.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div class="back bg-back" style="display: none;" onclick="backToHalf()"></div>
+            <form action="" id="myform" onsubmit="return false">
+                <input id="search" type="search" placeholder="搜一下" onkeypress="searchGoods()">
+            </form>
+        </div>
+    </header>
+
+    <div id="outerdiv" onclick='$(this).fadeOut();$("body,html").css({"overflow":"auto"});'>
+        <div id="innerdiv">
+            <img id="bigimg" src="#"/>
+        </div>
+    </div>
+
+    <aside class="sideMenu">
+        <p class="menuItem actived">生活百货</p>
+        <p class="menuItem">电子产品</p>
+        <p class="menuItem">运动户外</p>
+        <p class="menuItem">服装鞋帽</p>
+        <p class="menuItem">女装/饰品</p>
+        <p class="menuItem">文具/图书</p>
+        <p class="menuItem">其他分类</p>
+    </aside>
+
+    <section class="half">
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/jquery.lazyload.min.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="../../components/goodsCell/goodsCell.js"></script>
+    <script src="../../components/footerNav/footerNav.js"></script>
+    <script src="./category.js"></script>
+</body>
+</html>

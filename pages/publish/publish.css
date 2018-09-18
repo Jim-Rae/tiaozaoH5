@@ -1,0 +1,172 @@
+.title{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b551) , to(#ff9759));
+    background: linear-gradient(to right, #f8b551 , #ff9759);
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+.back{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0.7rem;
+}
+#outerdiv{
+    display: none;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.9);
+    z-index:100;
+    width:100%;
+    height:100%;
+}
+#innerdiv{
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+#bigimg{
+    width: 100%;
+}
+section{
+    margin: 48px 0 60px 0;
+    padding: 15px;
+}
+section>p{
+    font-size: 0.8rem;
+    border-bottom: solid 2px #BFC2C2FF;
+}
+section .picDiv{
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+section #title{
+    display: block;
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 8px 0;
+    border-bottom: solid 2px #BFC2C2FF;
+    margin-bottom: 8px;
+}
+section .picDiv{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin: 8px 0;
+}
+section .picDiv>.previewImage{
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+       -moz-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 5.3rem;
+    height: 5.3rem;
+    border-radius: 6px;
+    background: no-repeat center;
+    background-size: cover;
+    margin: 5px;
+}
+section .addPicDiv{
+    width: 5.3rem;
+    height: 5.3rem;
+    margin: 5px;
+}
+section .addPicDiv>.addIcon{
+    margin: auto;
+}
+section .addPicDiv>p{
+    font-size: 0.8rem;
+    text-align: center;
+}
+section #intro{
+    font-size: 0.8rem;
+    width: 100%;
+    height: 7rem;
+    border: none;
+    border-bottom: solid 2px #BFC2C2FF;
+}
+section .categoryDiv{
+    position: relative;
+    height: 2rem;
+    width: 100%;
+    border-bottom: solid 2px #BFC2C2FF;
+    margin-top: 1rem;
+}
+section .label{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 5px;
+    font-size: 0.9rem;
+}
+section .categoryDiv>.category{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 2rem;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+section .categoryDiv>.sltIcon{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+}
+section .categoryDiv>select{
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+section .priceDiv{
+    position: relative;
+    height: 2rem;
+    width: 100%;
+    border-bottom: solid 2px #BFC2C2FF;
+}
+section .priceDiv>input{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 2rem;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+section #publishBtn{
+    width: 100%;
+    height: 2rem;
+    margin: 1.5rem 0;
+    background-color: #fc5e2e;
+    font-size: 0.9rem;
+    color: white;
+    letter-spacing: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+            box-shadow: 0 0 5px #BFC2C2FF;
+}

@@ -1,0 +1,70 @@
+*{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    color: #535353;
+}
+@media screen and (min-width: 350px){
+  html{
+    font-size: 18.75px;
+  }
+}
+@media screen and (min-width: 390px){
+  html{
+    font-size: 20.7px;
+  }
+}
+
+input{
+  border: none;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+ /* WebKit browsers */
+  color: #aaa;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+/* Mozilla Firefox 4 to 18 */
+  color: #aaa;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+ /* Mozilla Firefox 19+ */
+  color: #aaa;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+ /* Internet Explorer 10+ */
+  color: #aaa;
+}
+
+textarea{
+  resize: none;
+}
+
+.clearfix:after{
+    content:"";/*设置内容为空*/
+    height:0;/*高度为0*/
+    line-height:0;/*行高为0*/
+    display:block;/*将文本转为块级元素*/
+    visibility:hidden;/*将元素隐藏*/
+    clear:both;/*清除浮动*/
+}
+.clearfix{
+    zoom:1;/*为了兼容IE*/
+}
+
+button{
+  border: none;
+}
+button:active{
+  opacity: 0.7;
+}
+
+.displayNone{
+  display: none;
+}

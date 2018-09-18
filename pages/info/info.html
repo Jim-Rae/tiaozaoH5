@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="./info.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <p>个人信息</p>
+            <div class="back bg-back" onclick="JavaScript:history.back()"></div>
+        </div>
+    </header>
+
+    <section>
+        <div id="protrait"  onclick="$('#fileToUpload').click();"></div>
+        <p class="proTips">点击上传头像</p>
+<!--         <input type="file" accept="image/*" multiple="multiple" onchange="fileSelected();" style="display:none;" id="fileToUpload"> -->
+        <div class="item">
+            昵称
+            <input type="text" id="nickname"  maxlength="20">
+        </div>
+        <div class="item">
+            性别
+            <div id="sex"></div>
+            <select id="sexSlt">
+                <option value="" selected>未选定</option>
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select>
+        </div>
+        <div class="item">
+            出生日期
+            <!-- <div id="date"></div> -->
+            <input type="date" id="birthday">
+        </div>
+        <div class="item">
+            学校
+            <div id="school"></div>
+            <select id="schoolSlt">
+                <option value="" selected>未选定</option>
+                <option value="华南师范大学">华南师范大学</option>
+                <option value="中山大学">中山大学</option>
+                <option value="华南理工大学">华南理工大学</option>
+                <option value="广州大学">广州大学</option>
+                <option value="广东工业大学">广东工业大学</option>
+                <option value="星海音乐学院">星海音乐学院</option>
+                <option value="广东外语外贸大学">广东外语外贸大学</option>
+                <option value="广州中医药大学">广州中医药大学</option>
+                <option value="广东药学院">广东药学院</option>
+                <option value="广州美术学院">广州美术学院</option>
+                <option value="暨南大学">暨南大学</option>
+                <option value="广州医科大学">广州医科大学</option>
+            </select>
+        </div>
+        <div class="item" onclick="document.getElementById('intro').focus();">
+            个人简介
+        </div>
+        <textarea id="intro" maxlength="50" placeholder="请输入不超过50字的个人简介"></textarea>
+        <div class="item" onclick="document.getElementById('address').focus();">
+            收货地址
+        </div>
+        <textarea id="address" placeholder="请输入收货地址"></textarea>
+        <button onclick="save()">提交修改</button>
+    </section>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/compressPic.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="./info.js"></script>
+</body>
+</html>

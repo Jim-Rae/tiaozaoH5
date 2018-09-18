@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+    <link rel="stylesheet" type="text/css" href="../../components/footerNav/footerNav.css">
+    <link rel="stylesheet" type="text/css" href="./myInfo.css">
+</head>
+<body>
+    <header>
+        <div class="setIcon bg-set" onclick="window.location.href = '../set/set.html'"></div>
+        <div class="protraitDiv">
+            <div class="protrait"></div>
+            <p id="nickname"></p>
+        </div>
+    </header>
+
+    <div id="outerdiv" onclick='$(this).fadeOut();$("body,html").css({"overflow":"auto"});'>
+        <div id="innerdiv">
+            <img id="bigimg" src="#"/>
+        </div>
+    </div>
+
+    <section>
+        <div id="menu1" class="menu" onclick="location.href = '../myPublish/myPublish.html'">
+            <div class="menuIcon bg-camera_active"></div>
+            <p id="menuName">我的发布</p>
+        </div>
+        <div id="menu2" class="menu" onclick="location.href = '../myBuy/myBuy.html'">
+            <div class="menuIcon bg-buy"></div>
+            <p id="menuName">我的购买</p>
+        </div>
+        <div id="menu3" class="menu" onclick="location.href = '../myCollect/myCollect.html'">
+            <div class="menuIcon bg-collect"></div>
+            <p id="menuName">我的收藏</p>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="../../components/footerNav/footerNav.js"></script>
+    <script src="./myInfo.js"></script>
+</body>
+</html>

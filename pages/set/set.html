@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="./set.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            设置
+            <div class="back bg-back" onclick="JavaScript:history.back()"></div>
+        </div>
+    </header>
+
+    <section>
+        <p onclick="window.location.href = '../info/info.html';">个人信息</p>
+        <p onclick="window.location.href = '../opinion/opinion.html';">意见反馈</p>
+        <p onclick="window.location.href = '../aboutUs/aboutUs.html';">关于我们</p>
+        <button onclick="logout()">退出登录</button>
+    </section>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="./set.js"></script>
+</body>
+</html>

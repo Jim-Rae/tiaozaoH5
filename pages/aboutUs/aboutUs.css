@@ -1,0 +1,43 @@
+.title{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b551) , to(#ff9759));
+    background: linear-gradient(to right, #f8b551 , #ff9759);
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+.back{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0.7rem;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+.picDiv{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 6px;
+    background: no-repeat center;
+    background-size: cover;
+    background-image: url(../../temp/default.png);
+    margin: 68px auto 1rem;
+}
+.name{
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+}
+.intro{
+    padding:10px 20px;
+}

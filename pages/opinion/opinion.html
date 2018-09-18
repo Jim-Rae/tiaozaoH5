@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="./opinion.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            意见反馈
+            <div class="back bg-back" onclick="JavaScript:history.back()"></div>
+        </div>
+    </header>
+
+    <section>
+        <p>请填写意见:</p>
+        <textarea maxlength="1000" placeholder="请输入不超过1000字的意见"></textarea>
+        <button onclick="leaveMsg()">提交</button>
+    </section>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="./opinion.js"></script>
+</body>
+</html>

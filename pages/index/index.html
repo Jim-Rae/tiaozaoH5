@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+    <link rel="stylesheet" type="text/css" href="../../components/goodsCell/goodsCell.css">
+    <link rel="stylesheet" type="text/css" href="../../components/footerNav/footerNav.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div class="back bg-detail"></div>
+            <div class="select">
+                <span>华南师范大学</span>
+                <select id="schoolSlt">
+                    <option value="华南师范大学" selected>华南师范大学</option>
+                    <option value="中山大学">中山大学</option>
+                    <option value="华南理工大学">华南理工大学</option>
+                    <option value="广州大学">广州大学</option>
+                    <option value="广东工业大学">广东工业大学</option>
+                    <option value="星海音乐学院">星海音乐学院</option>
+                    <option value="广东外语外贸大学">广东外语外贸大学</option>
+                    <option value="广州中医药大学">广州中医药大学</option>
+                    <option value="广东药学院">广东药学院</option>
+                    <option value="广州美术学院">广州美术学院</option>
+                    <option value="暨南大学">暨南大学</option>
+                    <option value="广州医科大学">广州医科大学</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <div id="outerdiv" onclick='$(this).fadeOut();$("body,html").css({"overflow":"auto"});'>
+        <div id="innerdiv">
+            <img id="bigimg" src="#"/>
+        </div>
+    </div>
+
+    <section>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/jquery.lazyload.min.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="../../components/goodsCell/goodsCell.js"></script>
+    <script src="../../components/footerNav/footerNav.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

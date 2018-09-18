@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="./detail.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            宝贝详情
+            <div class="back bg-back" onclick="sltBack()"></div>
+            <div class="car bg-car" onclick="window.location.href = '../myCar/myCar.html'"></div>
+        </div>
+    </header>
+
+    <div id="outerdiv" onclick='$(this).fadeOut();$("body,html").css({"overflow":"auto"});'>
+        <div id="innerdiv">
+            <img id="bigimg" src="#"/>
+        </div>
+    </div>
+
+    <section>
+
+    </section>
+
+    <div class="isSell" style="display: none;">已售出</div>
+
+    <footer>
+        <button class="leaveMsg" onclick="leaveMsg()">留言</button>
+        <button class="collect" onclick="collect()">收藏</button>
+        <button class="addCar" onclick="addCar()">加入购物车</button>
+        <button class="buy" onclick="buy()">立即购买</button>
+    </footer>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/jquery.lazyload.min.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="./detail.js"></script>
+</body>
+</html>

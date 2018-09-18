@@ -1,0 +1,59 @@
+.title{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b551) , to(#ff9759));
+    background: linear-gradient(to right, #f8b551 , #ff9759);
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+.back{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0.7rem;
+}
+.loginDiv{
+    margin-top: 48px;
+    padding: 1.5rem;
+}
+.inputDiv{
+    padding-bottom: 0.5rem;
+    margin-bottom: 20px;
+    border-bottom: solid 2px #BFC2C2FF;
+}
+.inputDiv>label{
+    margin-right: 20px;
+}
+.inputDiv>input{
+    font-size: 0.9rem;
+    color: #535353;
+    width: 70%;
+    padding: 2px;
+}
+#confirmPwd{
+    width: 60%;
+}
+.loginBtn{
+    margin-top: 2rem;
+    background-color: #fc5e2e;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.loginBtn:active{
+    background-color: rgb(255,54,54);
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}

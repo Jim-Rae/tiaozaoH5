@@ -1,0 +1,141 @@
+.goodsDiv{
+    margin: 10px;
+    border: solid 2px #BFC2C299;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+            box-shadow: 0 0 5px #BFC2C2FF;
+    padding: 10px;
+    background-color: white;
+}
+.info{
+    position: relative;
+    margin-bottom: 10px;
+}
+.info>.portrait{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info>.detail{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 0;
+}
+.info>.detail:active{
+    background-color: #BFC2C2FF;
+}
+.info>.nickname{
+    margin-left: 50px;
+    font-size: 0.85rem;
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info>.time{
+    margin-left: 50px;
+    font-size: 0.7rem;
+    color: #ABADB0FF;
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.detailDiv{
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+.detailDiv>.goodsTitle{
+    float: left;
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.detailDiv>.cgyAndPri{
+    float: right;
+    display: inline-block;
+    text-align: right;
+    width: 35%;
+    color: #ABADB0FF;
+}
+.detailDiv>.cgyAndPri>strong{
+    color: red;
+}
+.picsDiv{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+       -moz-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+.picsDiv>.pic{
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+       -moz-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background: no-repeat center;
+    background-size: cover;
+}
+.menuBg{
+    display: none;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.3);
+    z-index:90;
+    width:100%;
+    height:100%;
+}
+.menu{
+    display: none;
+    position: absolute;
+    z-index:91;
+    background-color: white;
+    right: 0;
+    top: 77%;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: solid 1px #BFC2C2FF;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+            box-shadow: 0 0 5px #BFC2C2FF;
+}
+.menu>li{
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+}
+.menu>li:active{
+    background-color: #BFC2C2FF;
+}
+.menu>li:first-child{
+    border-bottom: solid 1px #BFC2C2FF;
+}

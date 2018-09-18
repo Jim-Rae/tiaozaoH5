@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="./publish.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+    <link rel="stylesheet" type="text/css" href="../../components/footerNav/footerNav.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            发布
+            <div class="back bg-back" onclick="JavaScript:history.back()"></div>
+        </div>
+    </header>
+
+    <div id="outerdiv" onclick='$(this).fadeOut();$("body,html").css({"overflow":"auto"});'>
+        <div id="innerdiv">
+            <img id="bigimg" src="#"/>
+        </div>
+    </div>
+
+    <section>
+        <p>物品图片(请选择不超过9张3M以下的图片)</p>
+        <div class="picDiv">
+            <div class="addPicDiv">
+                <div class="addIcon bg-addPic"></div>
+                <p>添加图片</p>
+            </div>
+<!--             <input name="goodsPic" type="file" accept="image/*" multiple="multiple" onchange="fileSelected();" style="display:none;" id="fileToUpload"> -->
+        </div>
+        <form id="uploadForm" enctype="multipart/form-data" onsubmit="return false">
+            <input name="goodsTitle" id="title" type="text" placeholder="请输入标题">
+            <textarea name="intro" id="intro" maxlength="400" placeholder="请详细描述一下您的宝贝(不超过400字)"></textarea>
+            <div class="categoryDiv">
+                <div class="label">选择类别</div>
+                <div id="category" class="category">生活百货</div>
+                <div class="sltIcon bg-back"></div>
+                <select name="category">
+                    <option value="生活百货" selected>生活百货</option>
+                    <option value="电子产品">电子产品</option>
+                    <option value="运动户外">运动户外</option>
+                    <option value="服装鞋帽">服装鞋帽</option>
+                    <option value="女装/饰品">女装/饰品</option>
+                    <option value="文具/图书">文具/图书</option>
+                    <option value="其他分类">其他分类</option>
+                </select>
+            </div>
+            <div class="priceDiv">
+                <div class="label">宝贝价格</div>
+                <input name="price" id="price" type="number" placeholder="开个价">
+            </div>
+            <button id="publishBtn" onclick="publish()">发布</button>
+        </form>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/compressPic.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="../../components/footerNav/footerNav.js"></script>
+    <script src="./publish.js"></script>
+</body>
+</html>

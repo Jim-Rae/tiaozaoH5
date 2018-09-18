@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(243,243,243);
+}
+.noneDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    text-align: center;
+}
+.noneDiv>.none{
+    margin: auto;
+}
+.title{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b551) , to(#ff9759));
+    background: linear-gradient(to right, #f8b551 , #ff9759);
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+.back{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0.7rem;
+}
+.editBtn{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 0.7rem;
+    font-size: 0.9rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    padding: 8px;
+    border-top: solid 1px #BFC2C299;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+            box-shadow: 0 0 5px #BFC2C2FF;
+}
+footer .checkboxDiv{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    width: 2.2rem;
+    height: 100%;
+}
+footer .checkbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+footer .untick{
+    border: solid 1px #888;
+}
+footer>.total{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 0.8rem;
+    left: 40px;
+}
+footer>.total>span{
+    color: red;
+}
+footer>.settle{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 1rem;
+    width: 35%;
+    height: 2rem;
+    background-color: #fc5e2e;
+    border-radius: 6px;
+    color: white;
+    font-size: 0.9rem;
+}
+footer>.settle:disabled{
+    opacity: 0.3;
+}
+footer>.addCollect{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 6rem;
+    width: 35%;
+    height: 2rem;
+    background-color: #f8b551;
+    border-radius: 6px;
+    color: white;
+    font-size: 0.9rem;
+}
+footer>.delete{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 1rem;
+    width: 20%;
+    height: 2rem;
+    background-color: #fc5e2e;
+    border-radius: 6px;
+    color: white;
+    font-size: 0.9rem;
+}
+section{
+    margin: 53px 0 60px 0;
+}
+section>.carItem{
+    position: relative;
+    width: 100%;
+    height: 6rem;
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+}
+section>.carItem>.goodsPic{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 2.2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 6px;
+    background: no-repeat center;
+    background-size: cover;
+}
+section>.carItem .checkboxDiv{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    width: 2.2rem;
+    height: 100%;
+}
+section>.carItem .checkbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+section>.carItem .untick{
+    border: solid 1px #888;
+}
+section>.carItem>p{
+    margin-left: 7.2rem;
+}
+section>.carItem>.goodsTitle{
+    font-size: 0.9rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+section>.carItem>.price{
+    margin-top: 2.4rem;
+    color: red;
+}
+section>.carItem>.label{
+    position: absolute;
+    right: 1rem;
+    bottom: 0.5rem;
+    color: #f8b551;
+}

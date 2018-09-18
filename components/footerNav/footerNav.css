@@ -1,0 +1,47 @@
+.footerNav{
+    position: fixed;
+    z-index: 80;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+.footerNav>.menuDiv{
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    border-top: solid 1px #BFC2C299;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+            box-shadow: 0 0 5px #BFC2C2FF;
+    padding: 2px 0;
+}
+.footerNav>.menuDiv>.icon{
+    position: relative;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 50px;
+}
+.footerNav>.circle{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    top: -10px;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+            transform: translate(-50%,0);
+    background-color: #f8b551;
+    -webkit-box-shadow: 0 0 5px #BFC2C2FF;
+            box-shadow: 0 0 5px #BFC2C2FF;
+}
+.footerNav>.menuDiv>.icon>.center{
+    margin-top: 4px;
+}
+.icon>div{
+    margin: auto;
+}

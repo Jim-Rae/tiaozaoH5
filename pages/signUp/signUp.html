@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="./signUp.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            注册
+            <div class="back bg-back" onclick="JavaScript:history.go(-1)"></div>
+        </div>
+    </header>
+    <div class="loginDiv">
+        <div class="inputDiv">
+            <label for="username">用户</label>
+            <input id="username" type="text" placeholder="请输入注册账号">
+        </div>
+        <div class="inputDiv">
+            <label for="password">密码</label>
+            <input id="password" type="password" placeholder="请输入注册密码">
+        </div>
+        <div class="inputDiv">
+            <label for="confirmPwd">确认密码</label>
+            <input id="confirmPwd" type="password" placeholder="请再次输入注册密码">
+        </div>
+        <div class="loginBtn" onclick="signUp()">注册</div>
+    </div>
+    <footer>
+        Copyright © 2018 跳蚤团队 All right reserved
+    </footer>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="./signUp.js"></script>
+</body>
+</html>

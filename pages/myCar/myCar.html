@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>跳蚤</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/public.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/sprites.css">
+    <link rel="stylesheet" type="text/css" href="./myCar.css">
+    <link rel="stylesheet" type="text/css" href="../../components/alert/alert.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            购物车
+            <div class="back bg-back" onclick="JavaScript:history.back()"></div>
+            <div class="editBtn" onclick="edit()">编辑</div>
+        </div>
+    </header>
+
+    <section>
+<!--         <div class="noneDiv">
+            <div class="none bg-bigCar"></div>
+            <p>购物车空空如也！</p>
+            <p>快去逛逛吧～</p>
+        </div> -->
+
+<!--         <div class="carItem">
+            <div class="goodsPic" style="background-image: url(../../temp/slide-2.jpg)"></div>
+            <p class="goodsTitle">大四椅子转让，便宜拿去大四椅子转让，便宜拿去</p>
+            <div class="checkboxDiv" onclick="selectItem('0','1')">
+                <div id="checkbox1" class="checkbox untick"></div>
+            </div>
+            <p class="price">¥13.00</p>
+            <div class="label">已售出</div>
+        </div>
+        <div class="carItem">
+            <div class="goodsPic" style="background-image: url(../../temp/slide-3.jpg)"></div>
+            <p class="goodsTitle">大四椅子转让，便宜拿去大四椅子转让，便宜拿去</p>
+            <div class="checkboxDiv" onclick="selectItem('1','2')">
+                <div id="checkbox2" class="checkbox untick"></div>
+            </div>
+            <p class="price">¥12.00</p>
+            <div class="label">已售出</div>
+        </div>
+        <div class="carItem">
+            <div class="goodsPic" style="background-image: url(../../temp/slide-4.jpg)"></div>
+            <p class="goodsTitle">大四椅子转让，便宜拿去大四椅子转让，便宜拿去</p>
+            <p class="price">¥2.00</p>
+            <div class="label">已售出</div>
+        </div>
+        <div class="carItem">
+            <div class="goodsPic" style="background-image: url(../../temp/slide-3.jpg)"></div>
+            <p class="goodsTitle">大四椅子转让，便宜拿去大四椅子转让，便宜拿去</p>
+            <div class="checkboxDiv" onclick="selectItem('2','4')">
+                <div id="checkbox4" class="checkbox untick"></div>
+            </div>
+            <p class="price">¥34.23</p>
+            <div class="label">已售出</div>
+        </div> -->
+    </section>
+
+    <footer>
+        <div class="checkboxDiv" onclick="allSelect()">
+            <div class="checkbox untick"></div>
+        </div>
+        <p id="total" class="total">全选&nbsp;&nbsp;&nbsp;合计：<span>¥0</span></p>
+        <button class="settle" onclick="settle()">结算(0)</button>
+        <p id="total2" class="total" style="display: none">全选</p>
+        <button class="addCollect" style="display: none" onclick="addCollect()">移入收藏夹</button>
+        <button class="delete" style="display: none" onclick="deleteItem()">删除</button>
+    </footer>
+
+    <script src="https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../../lib/url.js"></script>
+    <script src="../../lib/myLib.js"></script>
+    <script src="../../components/alert/alert.js"></script>
+    <script src="./myCar.js"></script>
+</body>
+</html>
